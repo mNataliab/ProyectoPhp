@@ -26,7 +26,7 @@ class persona
             $consulta = $conexion->prepare('INSERT INTO ' . self::tabla . ' (nombre, apellido,edad) VALUES(:nombre, :apellido,:edad)');
             $consulta->bindParam(':nombre', $this->nombre);
             $consulta->bindParam(':apellido', $this->descripcion);
-            $consulta->bindParam(':edad',$this->edad );
+            $consulta->bindParam(':edad',$this->edad )
             $consulta->execute();
             $this->id = $conexion->lastInsertId();
 
@@ -37,3 +37,4 @@ class persona
  $persona = new Persona('Batman', 'rosas', 23);
  $persona->guardar();
  echo $persona->getNombre() . ' se ha guardado correctamente con el id: ' . $persona->getId();
+?>
