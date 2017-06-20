@@ -48,6 +48,11 @@ private $Estado;
 
     }
 
+    function __destruct() {
+        $this->Disconnect();
+        unset($this);
+    }
+
     protected static function buscarForId($id)
     {
         // TODO: Implement buscarForId() method.
@@ -76,6 +81,7 @@ private $Estado;
             $this->Estado,
 
         ));
+        $this->Disconnect();
     }
 
     protected function editar()
@@ -89,10 +95,7 @@ private $Estado;
     }
 
 
-    function __destruct() {
-        $this->Disconnect();
-        unset($this);
-    }
+
 
     /**
      * @return mixed
