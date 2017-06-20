@@ -41,8 +41,8 @@
       <file leaf-file-name="Citas_Medicas.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Modelo/Citas_Medicas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="83" selection-end-column="28" />
+            <state relative-caret-position="172">
+              <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
               <folding>
                 <marker date="1497958725072" expanded="true" signature="1597:1657" ph="INSERT INTO mypet.Citas_Medicas... " />
               </folding>
@@ -263,7 +263,7 @@
       <workItem from="1497953725452" duration="1006000" />
       <workItem from="1497954817274" duration="128000" />
       <workItem from="1497954993435" duration="24000" />
-      <workItem from="1497958332578" duration="560000" />
+      <workItem from="1497958332578" duration="583000" />
     </task>
     <task id="LOCAL-00001" summary="historia_clinica">
       <created>1497958889890</created>
@@ -276,7 +276,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8715000" />
+    <option name="totallyTimeSpent" value="8738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -489,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modelo/Citas_Medicas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="83" selection-end-column="28" />
+        <state relative-caret-position="172">
+          <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
             <marker date="1497958725072" expanded="true" signature="1597:1657" ph="INSERT INTO mypet.Citas_Medicas... " />
           </folding>
