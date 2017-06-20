@@ -263,7 +263,7 @@
       <workItem from="1497953725452" duration="1006000" />
       <workItem from="1497954817274" duration="128000" />
       <workItem from="1497954993435" duration="24000" />
-      <workItem from="1497958332578" duration="583000" />
+      <workItem from="1497958332578" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="historia_clinica">
       <created>1497958889890</created>
@@ -276,10 +276,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8738000" />
+    <option name="totallyTimeSpent" value="8767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
