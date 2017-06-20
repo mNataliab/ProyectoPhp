@@ -13,7 +13,7 @@ class Especialidad extends db_abstract_class
 {
     private $idEspacialidad;
     private $Nombre;
-    private $Estdo;
+    private $Estado;
 
     /**
      * Especialidad constructor.
@@ -24,7 +24,7 @@ class Especialidad extends db_abstract_class
     public function __construct($Especialidad_data = array())
     {
 
-        arent::__construct(); //Llama al contructor padre "la clase conexion" para conectarme a la BD
+        parent::__construct(); //Llama al contructor padre "la clase conexion" para conectarme a la BD
         if(count($Especialidad_data)>1){ //
             foreach ($Especialidad_data as $campo => $valor){
                 $this->$campo = $valor;
@@ -60,7 +60,7 @@ class Especialidad extends db_abstract_class
     {
         $this->insertRow("INSERT INTO mypet.especialidad VALUES (NULL, ?, ?)", array(
                 $this->Nombre,
-                $this->Estdo,
+                $this->Estado,
             )
         );
         $this->Disconnect();
